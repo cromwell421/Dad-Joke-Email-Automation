@@ -1,6 +1,5 @@
 import yagmail
 import os
-from datetime import datetime as dt
 import json
 import requests
 
