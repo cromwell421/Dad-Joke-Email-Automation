@@ -1,12 +1,11 @@
 import yagmail
 import os
-import time
 from datetime import datetime as dt
 import json
 import requests
 
-sender = ''
-receiver = ''
+sender = os.getenv('SENDER')
+receiver = os.getenv('RECIPIENT')
 
 subject = 'Daily Pick Me Up For My Taffy'
 
