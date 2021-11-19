@@ -1,0 +1,2 @@
+yagmail==0.14.260
+requests==2.24.0
