@@ -27,4 +27,4 @@ jobs:
           SENDER: ${{ secrets.EMAIL_ADDRESS }}
           PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
           RECIPIENT: ${{ secrets.EMAIL_RECIPIENT }}
-        run: python dad_joke_email.py
+        run: python email_creation.py
