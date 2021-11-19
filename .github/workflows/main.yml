@@ -24,7 +24,7 @@ jobs:
           
       - name: execute py script 
         env: 
-          SENDER: ${{ secrets.EMAIL_ADDRESS }}
-          PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
-          RECIPIENT: ${{ secrets.EMAIL_RECIPIENT }}
+          SENDER: ${{ secrets.SENDER }}
+          PASSWORD: ${{ secrets.PASSWORD }}
+          RECIPIENT: ${{ secrets.RECIPIENT }}
         run: python email_creation.py
