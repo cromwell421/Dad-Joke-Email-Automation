@@ -6,7 +6,7 @@ import requests
 sender = os.getenv('SENDER')
 receiver = os.getenv('RECIPIENT')
 
-subject = 'Daily Pick Me To Start Your Day'
+subject = 'Daily Pick Me Up To Start Your Day'
 
 headers = {"Accept": "application/json"}
 
