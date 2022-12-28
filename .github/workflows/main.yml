@@ -2,7 +2,7 @@ name: dad-joke-email
 
 on:
   schedule:
-    - cron: '0 12 * * *'
+    - cron: '15 * * * *'
 
 jobs:
   build:
